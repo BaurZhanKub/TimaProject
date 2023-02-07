@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header_logo {
+    width: auto;
+    height: auto;
+}
+
+.wrepper_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header_text_logo {
+    padding-top: 10px;
+    border-right-width: 1px;
+    width: 250px;
+    margin-left: 15px
+}
+
+.header_logo-link {
+    width: 240px;
+    height: 80px;
+}
+
+.header-link_one {
+    text-decoration: none;
+}
+
+.text_header {
+    margin-bottom: 1px;
+    color: #487c40;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.header_mail {
+    justify-content: baseline;
+    padding-top: 10px;
+}
+
+.header_mail_logo {
+    padding-right: 10px;
+    width: 30px;
+    height: 19px;
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+
+.header_mail_text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #626662;
+}
+
+.header_top_bord {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    margin: 10px;
+    width: 420px;
+}
+
+.header_button_text {
+    background-color: #b08238;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    align-items: center;
+    padding: 5px 25px;
+
+}
+
+.social_icon {
+    margin-left: 20px;
+
+
+}
+
+.social_icon_bord {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.lang_header_name {
+    float: right;
+}
+
+.lang_header_name {
+    float: right;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #626662;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form {
+    margin-left: 100px;
+    width: auto;
+    border: 1px solid #626662;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.search {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    height: 25px;
+    position: left;
+    border: none;
+    font-size: 12px;
+}
+
+.navbar {
+    text-decoration: none;
+    padding: 0;
+    background-color: none;
+}
+
+.ham-btn {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    border: none;
+    width: 30px;
+    background-color: transparent;
+    position: relative;
+    padding: 3px;
+    margin: 0;
+    height: 30px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+.ham-line {
+    transition: .3s all;
+    display: block;
+    height: 2px;
+    width: 25px;
+    position: relative;
+    background: #487c40;
+    margin-bottom: 7px;
+}
+
+.container-fluid {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.nav-menu {
+    text-decoration: none;
+}
+
+.nav_menu_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #626662;
+    padding-left: 10px;
+    padding-right: 15PX;
+}
+
+.main-img {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.text-card {
+    position: absolute;
+    width: 470px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.534);
+    bottom: 20%;
+    margin-left: 40px;
+}
+
+.text-main-bord-card {
+    position: relative;
+    top: 15%;
+    font-size: 52px;
+    font-family: "PT Sans Narrow";
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    line-height: 0.5;
+
+}
+
+.text-main-bord-card-item {
+    position: absolute;
+    bottom: 25%;
+    font-family: "PT Sans Narrow";
+    color: rgb(88, 88, 88);
+    font-weight: normal;
+    line-height: 0.5;
+    font-size: 18px;
+}
+
+.inline-main-bord-card {
+    position: absolute;
+    left: 3%;
+    bottom: 40%;
+}
+
+.text-card2 {
+    position: absolute;
+    width: 310px;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 0.534);
+    right: 40px;
+    bottom: 20%;
+    padding: 10px;
+    padding-left: 10px;
+
+}
+
+.text-main-bord-card2 {
+    padding-top: 10px;
+    font-size: 30pt;
+    font-family: "PT Sans Narrow";
+    color: rgb(253, 253, 253);
+
+    line-height: 0.85;
+}
+
+.main_button_text {
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 20%;
+    height: 16%;
+    background-color: #f4b858;
+    border: none;
+    font-size: 18pt;
+    font-family: "PT Sans Narrow";
+    color: rgb(29, 29, 29);
+    line-height: 1.333;
+}
+
+.card-main-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-main-block-position {
+    width: 34%;
+    z-index: 0;
+}
+
+.headr-news-card {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7d7d7;
+}
+
+.headr-news-card-text {
+    text-decoration: none;
+    font-size: 18pt;
+    font-family: "PT Sans Narrow";
+    color: #565454;
+    text-align: center;
+}
+
+.main-news-card-text-data {
+    font-size: 14pt;
+    font-family: "PT Sans Narrow";
+    color: #565454;
+    font-weight: 400;
+}
+
+.main-news-card-text {
+    width: 100%;
+    display: inline-block;
+    font-size: 14pt;
+    font-family: "PT Sans Narrow";
+    color: #565454;
+    font-weight: bold;
+}
+.headr-mision-card{
+    display: flex;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 170px;
+    background-color: #b08238; 
+    
+}
+.headr-mision-card::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/logo_white.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    left:  66%;
+}
+.headr-mision-card1{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 12%;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Roboto;
+    color: white;
+    line-height: 1;
+}
+.main-mission-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/image/mission-card.png);
+}
+.main-mission-card > a{
+    font-size: 36px;
+    font-family: "Roboto";
+    color: rgb( 254, 254, 254 );
+    font-weight: bold;
+    line-height: 1;
+    width: 70%;
+}
+.headr-advertisement-card1 
+{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #487c40;
+}
+
+.headr-advertisement-card-text {
+    text-decoration: none;
+    font-size: 18pt;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.main-advertisement-card1{
+    padding-left: 40px;
+}
+.main-advertisement-card-text-data {
+    display: block;
+    font-size: 16pt;
+    font-family: "PT Sans Narrow";
+    color: #565454;
+    font-weight: 400;
+}
+
+.main-advertisement-card-text {
+    display: block;
+    width: 100%;
+    font-size: 14pt;
+    font-family: "PT Sans Narrow";
+    color: #565454;
+    font-weight: bold;
+}
+.headr-advertisement-card2{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #aab740;
+}
+.headr-advertisement-card-text2{
+    text-decoration: none;
+    font-size: 18pt;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.main-advertisement-card{
+    width: 100%;
+    height: 100%;
+}
+.name-corp{
+    display: flex;
+    display: inline-block;
+    
+    bottom: 0;
+    width: 100%;
+}
+.nav-foter{
+    bottom: 0;
+}

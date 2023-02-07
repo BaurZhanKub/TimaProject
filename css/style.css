@@ -103,8 +103,6 @@ body {
 
 .social_icon {
     margin-left: 20px;
-
-
 }
 
 .social_icon_bord {
@@ -259,10 +257,9 @@ form {
 
 .text-main-bord-card2 {
     padding-top: 10px;
-    font-size: 30pt;
+    font-size: 30px;
     font-family: "PT Sans Narrow";
     color: rgb(253, 253, 253);
-
     line-height: 0.85;
 }
 
@@ -273,7 +270,7 @@ form {
     height: 16%;
     background-color: #f4b858;
     border: none;
-    font-size: 18pt;
+    font-size: 18px;
     font-family: "PT Sans Narrow";
     color: rgb(29, 29, 29);
     line-height: 1.333;
@@ -282,6 +279,7 @@ form {
 .card-main-block {
     display: flex;
     justify-content: space-between;
+    height: 455px;
 }
 
 .card-main-block-position {
@@ -289,9 +287,13 @@ form {
     z-index: 0;
 }
 
+.news-card-border-line {
+    border-top: 2px solid rgba(156, 132, 96);
+}
+
 .headr-news-card {
     display: flex;
-    height: 70px;
+    height: 42px;
     justify-content: center;
     align-items: center;
     background-color: #d7d7d7;
@@ -299,14 +301,14 @@ form {
 
 .headr-news-card-text {
     text-decoration: none;
-    font-size: 18pt;
+    font-size: 18px;
     font-family: "PT Sans Narrow";
     color: #565454;
     text-align: center;
 }
 
 .main-news-card-text-data {
-    font-size: 14pt;
+    font-size: 14px;
     font-family: "PT Sans Narrow";
     color: #565454;
     font-weight: 400;
@@ -315,21 +317,23 @@ form {
 .main-news-card-text {
     width: 100%;
     display: inline-block;
-    font-size: 14pt;
+    font-size: 14px;
     font-family: "PT Sans Narrow";
     color: #565454;
     font-weight: bold;
 }
-.headr-mision-card{
+
+.headr-mision-card {
     display: flex;
     display: inline-block;
     position: relative;
     width: 100%;
     height: 170px;
-    background-color: #b08238; 
-    
+    background-color: #b08238;
+
 }
-.headr-mision-card::before{
+
+.headr-mision-card::before {
     content: "";
     position: absolute;
     display: block;
@@ -338,9 +342,10 @@ form {
     background-image: url(/image/logo_white.png);
     background-repeat: no-repeat;
     bottom: 0;
-    left:  66%;
+    left: 66%;
 }
-.headr-mision-card1{
+
+.headr-mision-card1 {
     display: flex;
     align-items: center;
     height: 100%;
@@ -352,28 +357,30 @@ form {
     color: white;
     line-height: 1;
 }
-.main-mission-card{
+
+.main-mission-card {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     width: 100%;
-    height: 100%;
+    min-height: 285px;
     background-repeat: no-repeat;
     background-image: url(/image/mission-card.png);
 }
-.main-mission-card > a{
+
+.main-mission-card>a {
     font-size: 36px;
     font-family: "Roboto";
-    color: rgb( 254, 254, 254 );
+    color: rgb(254, 254, 254);
     font-weight: bold;
     line-height: 1;
     width: 70%;
 }
-.headr-advertisement-card1 
-{
+
+.headr-advertisement-card1 {
     display: flex;
-    height: 70px;
+    height: 42px;
     justify-content: center;
     align-items: center;
     background-color: #487c40;
@@ -387,12 +394,14 @@ form {
     color: white;
     text-align: center;
 }
-.main-advertisement-card1{
+
+.main-advertisement-card1 {
     padding-left: 40px;
 }
+
 .main-advertisement-card-text-data {
     display: block;
-    font-size: 16pt;
+    font-size: 16px;
     font-family: "PT Sans Narrow";
     color: #565454;
     font-weight: 400;
@@ -401,37 +410,84 @@ form {
 .main-advertisement-card-text {
     display: block;
     width: 100%;
-    font-size: 14pt;
+    font-size: 14px;
     font-family: "PT Sans Narrow";
     color: #565454;
     font-weight: bold;
 }
-.headr-advertisement-card2{
+
+.headr-advertisement-card2 {
     display: flex;
-    height: 70px;
+    height: 42px;
     justify-content: center;
     align-items: center;
     background-color: #aab740;
 }
-.headr-advertisement-card-text2{
+
+.headr-advertisement-card-text2 {
     text-decoration: none;
-    font-size: 18pt;
+    font-size: 18px;
     font-family: "PT Sans Narrow";
     font-weight: bold;
     color: white;
     text-align: center;
 }
-.main-advertisement-card{
+
+.main-advertisement-card {
     width: 100%;
+    height: 247px;
+    display: grid;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
     height: 100%;
 }
-.name-corp{
+
+.carousel-control-next-icon {
+    background-image: url(/image/next-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+.carousel-item.active {
+    display: inline-flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/image/prev-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+.carousel-caption {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(64, 63, 63);
+    font-style: italic;
+    line-height: 1.5;
+    position: initial;
+    width: 130px;
+    text-align: center;
+}
+
+.carousel-caption-img {
+    border: 8px solid rgb(178, 176, 176);
+    margin-right: 40px;
+}
+
+.name-corp {
     display: flex;
     display: inline-block;
-    
+
     bottom: 0;
     width: 100%;
 }
-.nav-foter{
+
+.nav-foter {
     bottom: 0;
 }

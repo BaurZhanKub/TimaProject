@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+a {
+    text-decoration: none; 
+   }
+   a:hover {
+    text-decoration: none;
+   }
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.news-body-header{
+    position: relative;
+}
+.news-body{
+    width: 100%;
+    height:230px;
+}
+.news-body-img{
+    position: absolute;
+}
+.news-body-text {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    margin-left: 20px;
+    
+  }
+  .card-main-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+   
+}
+.news-lent-body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.news-lent{
+    width: 64%;
+}
+.image-news-body{
+    text-align: center;
+}
+.text_body-news-lent>a{
+   padding-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 132, 130, 130 );
+    line-height: 1rem;
+}
+.text_body-news-lent{
+       margin-top: 20px; 
+}
+.header-body-lent-news{
+        font-size: 24px;
+        font-family: "Roboto";
+        color: rgb( 71, 71, 71 );
+        line-height: 4;
+        text-align: center;
+}
+.text-news-bodi-info{
+    margin-top: 20px;
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb( 71, 71, 71 );
+        line-height: 1.714;
+        text-align: left;
+        padding-left: 20px;
+      
+}
+.text-news-bodi-info-ident{
+    text-indent: 30px;
+  
+}
+
+.card-main-block-position {
+    width: 34%;
+    z-index: 0;
+    height: 300px;
+}
+  .headr-advertisement-card1 {
+    display: flex;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    background-color: #487c40;
+}
+
+.headr-advertisement-card-text {
+    text-decoration: none;
+    font-size: 18pt;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.main-advertisement-card1{
+    padding-left: 20px;
+}
+
+.main-advertisement-card-text-data {
+    display: block;
+    font-size: 16px;
+    font-family: "PT Sans Narrow";
+    color: #565454;
+    font-weight: 400;
+}
+
+.main-advertisement-card-text {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-family: "PT Sans Narrow";
+    color: #565454;
+    font-weight: bold;
+}
+
+.headr-advertisement-card2 {
+    display: flex;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    background-color: #aab740;
+}
+
+.headr-advertisement-card-text2 {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.main-advertisement-card {
+    width: 100%;
+    height: 247px;
+    display: grid;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(/image/next-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+.carousel-item.active {
+    display: inline-flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/image/prev-icon.png);
+    width: 42px;
+    height: 42px;
+}
+
+.carousel-caption {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(64, 63, 63);
+    font-style: italic;
+    line-height: 1.5;
+    position: initial;
+    width: 130px;
+    text-align: center;
+}
+.card-report-block-position{
+    width: 34%;
+    background-color: #f2f1f1;
+    border-bottom: 2px solid #487c40;
+}
+
+.carousel-caption-img {
+    border: 8px solid rgb(178, 176, 176);
+    margin-right: 40px;
+}
+.header-body-report{
+    margin-top: 20px;
+    text-align: center;
+        font-size: 24px;
+        font-family: "Roboto";
+        color: rgb( 52, 52, 52 );
+        font-weight: bold;
+        line-height: 1.5;
+}
+.link-report-body{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    height: 55px;
+    width: 90%;
+    background-color: #d7d7d7;
+    border-left: solid 2px   #487c40;
+    padding-left: 10px;
+    align-items: baseline;
+    padding-top: 10px;
+}
+.link-report-body-text{
+    padding-left: 40px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: "PT Sans Narrow";
+    color: rgb( 76, 76, 76 );
+    font-weight: bold;
+  }
+  .main-advertisement-card-report{
+    text-align: center;
+   margin: 40px;
+  }
+  table,td, tr{
+    border: solid 1px black;
+    height: 100%;
+    font-size: 18px;
+    font-family: "PT Sans Narrow";
+    color: rgb( 52, 52, 52 );
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .text-advertisment-card-report{
+    color: rgb( 52, 52, 52 );
+  }
+  .text-advertisment-card-report:hover {
+    text-decoration: none;
+   }
+
+  

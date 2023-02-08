@@ -21,7 +21,12 @@ body {
     font-weight: normal;
     color: black;
 }
-
+a {
+    text-decoration: none; 
+   }
+   a:hover {
+    text-decoration: none;
+   }
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
@@ -50,9 +55,7 @@ body {
     height: 80px;
 }
 
-.header-link_one {
-    text-decoration: none;
-}
+
 
 .text_header {
     margin-bottom: 1px;
@@ -480,14 +483,57 @@ form {
     margin-right: 40px;
 }
 
-.name-corp {
+.navbar-foter {
     display: flex;
-    display: inline-block;
-
-    bottom: 0;
     width: 100%;
+    background-color: #ebebeb;
+    align-items: center;
+    position: relative;
 }
 
-.nav-foter {
+.header_text_logo-foter {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 290px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text_foter {
+    font-size: 18px;
+    font-family: "PT Sans Narrow";
+    color: rgb(119, 117, 117);
+    line-height: 1.333;
+}
+
+.navbar-foter {
+   margin-bottom: 20px;
+}
+.text-footer-menu-navbar {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "PT Sans Narrow";
+    color: rgb(119, 117, 117);
+    line-height: 1.333;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+.social-icon-footer{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer-logo-position::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 100%;
+    background-image: url(/image/logo_white_footer.png);
+    background-repeat: no-repeat;
     bottom: 0;
+    right: 0%;
+}
+.footer{
+    margin-bottom: 20px;
 }
